@@ -1,6 +1,6 @@
 # Fake News 
 
-The idea is to develop a machine learning program to identify when an article might be fake news.
+The idea is to develop a machine learning program to identify whether an article might be fake news or not.
 
 **Dataset link:** https://www.kaggle.com/c/fake-news/data
 
