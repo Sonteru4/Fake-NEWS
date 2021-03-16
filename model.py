@@ -105,7 +105,7 @@ print(model.summary())
 
 # fitting it into the data
 print("Running the model....")
-hist = model.fit(xtrain,ytrainf,epochs=15,validation_data=(xtest,ytestf))
+hist = model.fit(xtrain,ytrainf,epochs=30,validation_data=(xtest,ytestf))
 
 print("Saving the model into the disk....")
 model.save('news.h5')
@@ -136,7 +136,7 @@ print("Figures saved in the disk....")
 # testing the model
 print("Testing the model....")
 print("The result obtained is...\n")
-model.evaluate(xtest,ytest)
+model.evaluate(xtest,ytestf)
 
 ypred = model.predict_classes(xtest)
 
@@ -145,7 +145,7 @@ cf = confusion_matrix(ytest,ypred)
 print("The confusion matrix is: \n",cf)
 
 plt.figure(figsize=(15,10))
-sns.heatmap(cf,annot=True,cmap='Green')
+sns.heatmap(cf,annot=True,cmap='Blues')
 plt.title("Confusion Matrix")
 plt.savefig("confusion.jpg")
 
