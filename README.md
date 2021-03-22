@@ -34,6 +34,6 @@ From the above plot we can conclude that most of the Titles for the News have a 
 ### Distribution of Text length of the News
 `This is the distribution of the length of the Text in the News.`
 <p align=center>
-   <img arc="https://github.com/Ankit152/fake-news/blob/master/img/textLenDis.jpg" height=648>
+   <img src="https://github.com/Ankit152/fake-news/blob/master/img/textLenDis.jpg" height=648>
 </p>
 From the above plot we can conclude that the distribution is skew as the maximum number of datapoints lies below 2000 words.
