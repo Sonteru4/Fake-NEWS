@@ -37,3 +37,15 @@ From the above plot we can conclude that most of the Titles for the News have a 
    <img src="https://github.com/Ankit152/fake-news/blob/master/img/textLenDis.jpg" height=648>
 </p>
 From the above plot we can conclude that the distribution is skew as the maximum number of datapoints lies below 2000 words.
+
+## Model Training
+
+### Accuracy vs Epoch Plot
+<p align=center>
+   <img src="https://github.com/Ankit152/fake-news/blob/master/img/accuracy.jpg">
+</p>
+
+### Loss vs Epoch Plot
+<p align=center>
+   <img src="https://github.com/Ankit152/fake-news/blob/master/img/loss.jpg">
+</p>
